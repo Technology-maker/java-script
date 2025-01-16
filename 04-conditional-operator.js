@@ -3,41 +3,75 @@
 
 
 
-const prompt = require("prompt-sync")();
-let a = prompt("enter your age");
 
-a = Number.parseInt(a);         //use to convert the string into number              it iis also known as (type casting)
-console.log(typeof (a));
+// alert("hey");
 
-if (a <= 100) {
-    console.log("you are very old its time to die. ");
+
+
+
+/*
+
+let age = prompt("hey whats your age !");
+
+age = Number.parseInt(age);   // converting thestring into a number 
+console.log(age);
+console.log("type of age is", typeof (age));
+
+if (age < 0) {
+    alert("please enter avalid age !");
+}
+if (age == 0) {
+    alert("please give correct age !");
 }
 
-else if (a <= 70 && a >= 50) {
-    console.log("you are looking like a young. ");
-
+if (age <= 100 && age >= 90) {
+    alert("you are to young ! in some years you are die !");
+}
+else if (age < 90 && age >= 70) {
+    alert("you are not too old ! but you are age is for retirement !");
+}
+else if (age < 70 && age >= 40) {
+    alert("you are just  between 70 and 40");
+}
+else if (age < 40 && age >= 18) {
+    alert("you are elegible to vote !");
+}
+else if (age < 17 && age >= 9) {
+    alert("you are not able to give vote !");
+}
+else if (age < 9 && age > 1) {
+    alert("you are a small child !");
+}
+else {
+    alert("enter the valis age !");
 }
 
-else if(a <= 49 && a >= 30){
-    console.log("you are too young .");
+*/
+
+
+
+
+
+    const object = {
+        satender: 23,
+        sahil: 35,
+        mohit: 67,
+        rohan: 46,
+        rohit: 68,
+        aarav: 46,
+        himesh: 38
+    }
+
+
+
+// for in loop
+for (let a in object) {
+    console.log("marks of " + a + " are " + object[a]);
 }
 
-else if(a <= 29 && a >= 18){
-    console.log("you are able to vote in india .");
 
 
-}
-
-else if(a<= 17 && a  >= 10){
-    console.log ("tou are a kid you are not able to vote ,");
-
-}
-
-else if(a <= 9 && a>= 1){
-    console.log("you are not able to speak proprely");
-
-}
-else{
-    console,log("invalid age ");
-    
+// for of loop 
+for (let b of "satender") {
+    console.log(b);
 }

@@ -66,3 +66,5 @@ for (let b of "yadav"){
     console.log(b);
 
 }
+
+
