@@ -9,7 +9,7 @@ let str2 = 'yadav';
 
 
 
-// to print the strings 
+// to print the strings
 
 for (let i of str1) {
     console.log("arr", i, "is = ", str1);
@@ -78,6 +78,15 @@ myname[3] = "m";             // this is not posible in c++.
 
 
 
+// template laterals 
+
+
+let boy1 = "satender";
+let boy2 = "sonu";
+
+let sentence = `${boy1} is a friend of ${boy2}`;
+
+console.log(sentence);
 
 
 
@@ -85,6 +94,74 @@ myname[3] = "m";             // this is not posible in c++.
 
 
 
+
+// scape sequence character 
+
+let fruit = 'papiya\'s'
+console.log(fruit);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// strings methods 
+
+let mname = "satender yadav";
+
+
+// first method 
+
+console.log(mname.toUpperCase());
+
+// second method 
+
+console.log(mname.toLowerCase());
+
+// third method 
+
+console.log(mname.slice(2, 6));
+
+
+// forth method 
+
+console.log(mname.replace("satender", "sonu"));
+
+
+// fifth method           ( concination means to merge the two strings ).
+
+
+let friendname = "sonu";
+
+
+console.log(mname.concat(" is friend of ", friendname, " ok "));
+
+
+
+// sixth method  ( it is used to trim extra space )
+
+let frname = "                   laddo            ";
+
+console.log(frname);
+console.log(frname.trim());
 
 
 

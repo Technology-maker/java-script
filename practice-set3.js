@@ -26,25 +26,58 @@ const marks = {
 
 
 
-function averagefun(a, b, c, d) {
-    return (a + b + c + d) / 4;
+// function averagefun(a, b, c, d) {
+//     return (a + b + c + d) / 4;
 
-}
-let a, b, c, d;
-
-a = Number(prompt("enter a "));
-b = Number(prompt("enter b "));
-c = Number(prompt("enter c "));
-d = Number(prompt("enter d "));
-
-let result = averagefun(a, b, c, d);
-
-
-// const findmean = (a, b, c, d, e) => {
-//     return (a + b + c + d + e) / 5;
 // }
+// let a, b, c, d;
+
+// a = Number(prompt("enter a "));
+// b = Number(prompt("enter b "));
+// c = Number(prompt("enter c "));
+// d = Number(prompt("enter d "));
+
+// let result = averagefun(a, b, c, d);
 
 
-console.log(result);
+// // const findmean = (a, b, c, d, e) => {
+// //     return (a + b + c + d + e) / 5;
+// // }
+
+
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let rollnumber = {
+    satender: 239173,
+    sahil: 239290,
+    sonu: 239283,
+    mohitlakhera: 239285,
+    megha: 239156,
+    mohan: 239259
+}
+
+
+
+for (let i in rollnumber) {
+    console.log("name of stdents is = " + i);
+}
+
+for (let values in rollnumber) {
+    console.log("rollno = " + rollnumber[values]);
+}
+
 
 
