@@ -4,6 +4,6 @@ console.log(a.firstElementChild);
 console.log(a.previousElementSibling);
 console.log(a.nextSibling);
 console.log(a.lastElementChild);
-
+console.log($0.firstChild);
 
 
